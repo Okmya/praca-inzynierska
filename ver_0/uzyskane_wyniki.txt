@@ -1,0 +1,89 @@
+0.218324 M parameters
+
+1 train loss 1.8692, val loss 1.8991, train perplexity 6.4828, val perplexity 6.6801
+2 train loss 1.8692, val loss 1.8991, train perplexity 6.4828, val perplexity 6.6801
+3 train loss 1.8692, val loss 1.8991, train perplexity 6.4828, val perplexity 6.6801
+
+block_size = 64
+
+dla batch_size = 16:
+train loss 1.8760, val loss 2.0368, train perplexity 6.5271, val perplexity 7.6660
+
+dla batch_size = 32:
+
+train loss 1.8692, val loss 1.8991, train perplexity 6.4828, val perplexity 6.6801
+
+dla batch_size = 64:
+
+train loss 1.8161, val loss 1.8780, train perplexity 6.1478, val perplexity 6.5404
+
+dla batch_size = 128:
+
+train loss 1.7643, val loss 1.8576, train perplexity 5.8376, val perplexity 6.4086
+
+
+teraz to samo ale block_size = 128
+
+dla batch_size = 16:
+
+train loss 1.9549, val loss 1.9689, train perplexity 7.0633, val perplexity 7.1625
+
+dla batch_size = 32:
+
+train loss 1.8664, val loss 1.9541, train perplexity 6.4650, val perplexity 7.0579
+
+dla batch_size = 64:
+
+train loss 1.7692, val loss 1.8603, train perplexity 5.8659, val perplexity 6.4254
+
+
+dla batch_size = 128:
+
+train loss 1.7601, val loss 1.8761, train perplexity 5.8132, val perplexity 6.5280
+
+dla batch_size = 256:
+
+train loss 1.7098, val loss 1.8270, train perplexity 5.5277, val perplexity 6.2150
+
+DLA PARAMETROW:
+
+# hyperparameters
+batch_size = 256
+block_size = 128
+max_iters = 10000
+eval_interval = 100
+learning_rate = 1e-3
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+eval_iters = 200
+n_embd = 64
+n_head = 8
+n_layer = 8
+dropout = 0.1
+
+
+step 9999: train loss 1.5870, val loss 1.7788, train perplexity 4.8890, val perplexity 5.9225
+
+
+
+
+
+
+
+
+
+DLA PARAMETROW:
+
+
+batch_size = 32  # how many independent sequences will we process in parallel?
+block_size = 128  # maximum context length for predictions
+max_iters = 10000
+eval_interval = 100
+learning_rate = 1e-3
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+eval_iters = 200
+n_embd = 128
+n_head = 8
+n_layer = 8
+dropout = 0.2
+
+step 9999: train loss 1.5112, val loss 1.7605, train perplexity 4.5323, val perplexity 5.8152
