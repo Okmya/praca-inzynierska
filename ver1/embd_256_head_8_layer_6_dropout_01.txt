@@ -1,0 +1,6 @@
+step 5000: train loss 1.0200, val loss 2.0209, train perplexity 2.7732, val perplexity 7.5454
+step 5100: train loss 0.9846, val loss 2.0579, train perplexity 2.6768, val perplexity 7.8297
+step 5200: train loss 0.9780, val loss 2.1910, train perplexity 2.6592, val perplexity 8.9441
+step 5300: train loss 0.9588, val loss 2.1079, train perplexity 2.6085, val perplexity 8.2309
+
+przeuczył się

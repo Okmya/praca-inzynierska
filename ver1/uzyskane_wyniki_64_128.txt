@@ -1,0 +1,25 @@
+n_embd = 128
+
+step 9999: train loss 1.5803, val loss 1.7649, train perplexity 4.8565, val perplexity 5.8407 #był oka
+
+
+
+#niestabilne jest i sdie przeuczyl
+
+m_embd = 256
+step 9700: train loss 1.1283, val loss 1.9894, train perplexity 3.0905, val perplexity 7.3115
+step 9800: train loss 1.1176, val loss 1.9939, train perplexity 3.0576, val perplexity 7.3442
+step 9900: train loss 1.1359, val loss 1.9451, train perplexity 3.1140, val perplexity 6.9945
+step 9999: train loss 1.0983, val loss 1.9362, train perplexity 2.9991, val perplexity 6.9326
+
+
+
+n_embd = 512
+
+step 2100: train loss 1.3721, val loss 1.7841, train perplexity 3.9436, val perplexity 5.9542
+step 2200: train loss 1.3449, val loss 1.8219, train perplexity 3.8379, val perplexity 6.1839
+...
+step 2700: train loss 1.2581, val loss 1.9080, train perplexity 3.5188, val perplexity 6.7397
+step 2800: train loss 1.1643, val loss 1.8358, train perplexity 3.2038, val perplexity 6.2701
+step 2900: train loss 1.2016, val loss 1.8887, train perplexity 3.3253, val perplexity 6.6110
+step 3000: train loss 1.1550, val loss 1.9230, train perplexity 3.1740, val perplexity 6.8414
