@@ -1,0 +1,2 @@
+n_embd,n_head,n_layer,dropout,final_train_loss,final_val_loss,final_train_perplexity,final_val_perplexity
+256,8,8,0.3,4.606197357177734,3.9836461544036865,100.10266876220703,53.71250915527344
